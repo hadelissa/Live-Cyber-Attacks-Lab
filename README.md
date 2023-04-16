@@ -1,1 +1,1 @@
-# AzureSentinelwithLiveCyberAttacks-Lab
+# AzureSentinel-LiveCyberAttacks-Lab
