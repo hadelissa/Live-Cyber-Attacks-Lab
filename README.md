@@ -21,7 +21,7 @@ In this lab I configured Azure Sentinel SIEM and linked it to a running virtual 
 
 <p align="center">
 Map: <br/>
-<img src="https://imgur.com/a/i7iVDRZ" height="80%" width="80%" alt="Map live cyber attacks"/>
+<img src="https://imgur.com/YlzVQ6K" height="80%" width="80%" alt="Map live cyber attacks"/>
 <br />
 <br />
 
