@@ -106,9 +106,7 @@ Go to Logs Analytics Workspaces: <br/>
 <img src="https://i.imgur.com/AGNakgg.png" height="80%" width="80%" alt=""/>
 <br />
 
- 
- 
- 
+
 <br />
 :<br />
 <img src="image source" height="80%" width="80%" alt=""/> 
