@@ -203,11 +203,13 @@ by creating a Map on Microsoft Sentinel we're going to be able to view the live 
 <img src="https://i.imgur.com/8dcLXal.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
-Click on the save icon to save your map, give it a name,select the source group for this lab, then select the location.
+Click on the save icon to save your map, give it a name, select the source group for this lab, then select the location and Save it.<br />
+<br />
 <img src="https://i.imgur.com/8yJn7Ev.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
-  : <br/>
+* I have waited about 2-3 hours to see the final results *
+Live RDP Attack Map: <br/>
 <img src="" height="80%" width="80%" alt=""/>
 <br />
 <br />
