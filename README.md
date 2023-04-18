@@ -1,4 +1,4 @@
-<h1>Azure Sentinel Live RDP Attacks Home Lab</h1>
+<h1>Azure Sentinel Live RDP Attacks Home Lab Walk Through</h1>
 
 
 <h2>Description</h2>
