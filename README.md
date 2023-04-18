@@ -210,14 +210,11 @@ Click on the save icon to save your map, give it a name, select the source group
 <br />
 * I have waited about 24 hours to see the final results *
 Live RDP Attack Map: <br/>
-<img src="" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/tkPtz8b.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
- : <br/>
-<img src="" height="80%" width="80%" alt=""/>
-<br />
-<br />
-<!--
+ 
+
  ```diff
 - text in red
 + text in green
