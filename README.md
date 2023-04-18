@@ -137,8 +137,9 @@ Go to Wf.msc, click on Windows Defender Firewall Properties: <br/>
 <br />
 
 <h2>PowerShell/ ip geolocation walk-through:</h2> 
-  <p align="center">
+The purpose of Creating a PowerShell Script and connecting it to ipegolocation.io is that PowerShell script is going to look through the Security logs and grabs all the events of people who failed to login to the VM. Also, it grabs their IP address and gets the geodata of each Ip address and tehn create a new log file.
 **Copy the PowerShell Script for this lab from the Custom_Security_Log_Exporter.ps1 file.** 
+  <p align="center">
 <br />
 <br />
 Open Powershell ISE and click New. Next, Paste the PowerShell Script and save it to your desktop: <br/>
@@ -146,36 +147,74 @@ Open Powershell ISE and click New. Next, Paste the PowerShell Script and save it
 <br />
 <br />
 Go to ipgolocation.io, create an account, copy the API_KEY and paste it on the PowerShell script as shown in the screenShot below, Then Run the script.
- 
+<br />
 <img src="https://i.imgur.com/Njgs68Y.png" height="80%" width="80%" alt=""/>
-<img src=" https://i.imgur.com/3gLgDup.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/3gLgDup.png" height="80%" width="80%" alt=""/>
+<br />
+<br /> 
+To access the failed logon files go to File Expolorer>Windwos(C:)>ProgramData: <br/>
+<img src="https://i.imgur.com/8UqFqfa.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<h2>Connecting the failed RDP log file to the Log Analytics workspaces walk-through:</h2>
+*Now we're going to create a custom log inside of our log analytics workspace that have created on Azure. This will allow us to bring the log with the Geo-data into the log analytics workspace.*<br/>
+<br/>
+1-Go to Azure> search for Log analytics workspaces> select the VM that you have created for this lab> Legacy Custome Logs> click on Add a Custom Log: In this case it wants us to add the failed rdp file however this file is on the remote desktop VM.<br />
+<br />
+2-Here is how to get it, Go to the remote desktop VM go to  File Expolorer>Windwos(C:)>ProgramData> open the file> select all> copy the data in the file.
+<br />
+3-On your actual Machine add a note file and paste the data then save it on your desktop then add it to the custom log.<br/>
+
+In order for it to collect the logs correctly you need to add the correct  file Path. finish configuring the settings as shown below then click Create: <br/>
+<img src="https://i.imgur.com/Vui6hoA.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+click on Logs and type Name of the custom log that you've created inteh Query then click Run:
+*It might Take up to 10 minutes to upload the data!* <br/>
+<img src="https://i.imgur.com/2gHs1Z1.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+ As you can see the RawData it's all included in one line, Now, we're going to extract certain fields from it.<br />
+ To extract the Feilds follow these steps:
+ click on any of the logs > expand the log> right click next to the expand button> choose Extract Fields from..<br/>
+<img src="https://i.imgur.com/vchO4Op.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+To extract Data to separate fields highlight the data that you want to extract then name it, in the screenshot below i highlighted the data that we wan to extract:<br/>
+Select the value of the field data that you want to extract then name the Field Title by the name of the Field Data to have it display as the header of the field value then choose the correct Field Type. Once you're done click Extract then make sure the search results is displaying the correct info then click Save Extraction.<br/>
+  <p align="center">
+**Repate THE SAME STEPS FOR THE REST TO EXTRACT THE REST OF THE FIELDS**<br/>
+<img src="https://i.imgur.com/ipuwNdO.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/B66k1eT.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
  
- 
- 
- 
- 
- 
-Go to : <br/>
+<h2>Creating a MAP to display the Live attacks walk-through:</h2>
+  <p align="center">
+by creating a Map on Microsoft Sentinel we're going to be able to view the live attacks with the display of teh Geo-Data.
+ To create the Map: go to Microsoft Sentinel> choose the workspace that we've created for this lab> Go to Workbook> create New workbook> click on both Edits and select Remove> click on Add> Add Query.
+ Here is teh query that you would want to add (FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitude_CF, longitude_CF, country_CF, label_CF, destinationhost_CF
+| where destinationhost_CF != "samplehost"
+| where sourcehost_CF != ""). Next, choose Map from the visualization tab <br/>
+<img src="https://i.imgur.com/BINQSdc.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+ Configure  the Map settings by using the Latitude and longitude as follow then click Apply: <br/>
+<img src="https://i.imgur.com/8dcLXal.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+Click on the save icon to save your map, give it a name,select the source group for this lab, then select the location.
+<img src="https://i.imgur.com/8yJn7Ev.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+  : <br/>
 <img src="" height="80%" width="80%" alt=""/>
 <br />
 <br />
- Go to : <br/>
+ : <br/>
 <img src="" height="80%" width="80%" alt=""/>
 <br />
 <br />
- Go to : <br/>
-<img src="" height="80%" width="80%" alt=""/>
-<br />
-<br />
- Go to : <br/>
-<img src="" height="80%" width="80%" alt=""/>
-<br />
-<br />
- 
- 
- 
 <!--
  ```diff
 - text in red
