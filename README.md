@@ -47,7 +47,7 @@ Remove the existing firewall by clicking on the three dots then click remove. Cl
 <br />
 <br />
  Click Review + Create: Once you review your configuration Click Create. <br/>
-<img src="https://i.imgur.com/95DofSd.png" height="80%" width="80%" alt="description"/>
+<img src="https://i.imgur.com/95DofSd.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
  
@@ -55,40 +55,57 @@ Remove the existing firewall by clicking on the three dots then click remove. Cl
  
  <p align="center">
 Now, Let's Create a Log Analytics Workspace: By doing this step we'll be able to create custom log that contains geographic information to discover where the attackers are coming from. <br/>
-<img src="https://i.imgur.com/w3GVvTj.png" height="80%" width="80%" alt="description"/>
+<img src="https://i.imgur.com/w3GVvTj.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 Click on Create Log Analytics Workspaces: <br/>
-<img src="https://i.imgur.com/FWCKVF7.png" height="80%" width="80%" alt="description"/>
+<img src="https://i.imgur.com/FWCKVF7.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 Configure the setting as follow: Choose the Group source that we have created previously, then Name your workspace. Once you're done click on Review + Create: <br/>
-<img src="https://i.imgur.com/rdDMgyn.png" height="80%" width="80%" alt="description"/>
+<img src="https://i.imgur.com/rdDMgyn.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 Review your configuration then click Create: <br/>
-<img src="https://i.imgur.com/6bLO9kL.png" height="80%" width="80%" alt="description"/>
+<img src="https://i.imgur.com/6bLO9kL.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
  
- <h2>Microsoft Sentinel walk-through:</h2>
+ <h2>Microsoft  Defender for  Cloud walk-through:</h2>
  
   <p align="center">
-tittle: <br/>
-<img src="image source" height="80%" width="80%" alt="description"/>
+Search Microsoft Defender for the Cloud: To enable the ability to gather logs from the VM into the Log analytics workspace <br/>
+<img src="https://i.imgur.com/TzxwwlW.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
- tittle: <br/>
-<img src="image source" height="80%" width="80%" alt="description"/>
+Go to Environment Settings, then choose the workspace that we've created previously: <br/>
+<img src="https://i.imgur.com/hz9m1bU.png" height="80%" width="80%" alt=""/>
 <br />
-<br />tittle: <br/>
-<img src="image source" height="80%" width="80%" alt="description"/>
 <br />
-<br />tittle: <br/>
-<img src="image source" height="80%" width="80%" alt="description"/>
+titini: <br/>
+<img src="" height="80%" width="80%" alt=""/>
 <br />
 <br />
 
+
+
+
+tittle: <br/>
+<img src="image source" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />tittle: <br/>
+<img src="image source" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />tittle: <br/>
+<img src="image source" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />tittle: <br/>
+<img src="image source" height="80%" width="80%" alt=""/>
+<br />
+<br />
 <!--
  ```diff
 - text in red
