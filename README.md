@@ -125,10 +125,26 @@ On your Computer, search for Remote Desktop Connection then paste your Ip addres
 <img src="https://i.imgur.com/vFZ1y8y.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
- Go to : <br/>
-<img src="image source" height="80%" width="80%" alt=""/>
+Go to Wf.msc, click on Windows Defender Firewall Properties: <br/>
+<img src="https://i.imgur.com/G0DciTe.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
+ on the Domain Profile tab turn off the Firewall State, Click Apply then OK: <br/>
+<img src="https://i.imgur.com/7gc3gTp.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+Try to ping the VM IP address on your Computer to check if echo request are allowed. <br/>
+<br />
+<br />
+Copy the PowerShell Script for this lab from the file 
+<img src="" height="80%" width="80%" alt=""/>
+<br />
+<br />
+ 
+ 
+ 
+ 
+ 
 <!--
  ```diff
 - text in red
