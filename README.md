@@ -208,7 +208,7 @@ Click on the save icon to save your map, give it a name, select the source group
 <img src="https://i.imgur.com/8yJn7Ev.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
-* I have waited about 2-3 hours to see the final results *
+* I have waited about 24 hours to see the final results *
 Live RDP Attack Map: <br/>
 <img src="" height="80%" width="80%" alt=""/>
 <br />
