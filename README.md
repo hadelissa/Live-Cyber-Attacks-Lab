@@ -135,16 +135,44 @@ Go to Wf.msc, click on Windows Defender Firewall Properties: <br/>
 <br />
 **Try to ping the VM IP address on your Computer to check if echo request are allowed.** <br/>
 <br />
+
+<h2>PowerShell/ ip geolocation walk-through:</h2> 
+  <p align="center">
 **Copy the PowerShell Script for this lab from the Custom_Security_Log_Exporter.ps1 file.** 
 <br />
 <br />
-Open Powershell ISE and click New. Next, Paste the PowerShell Script and save it to you desktop: <br/>
+Open Powershell ISE and click New. Next, Paste the PowerShell Script and save it to your desktop: <br/>
 <img src="https://i.imgur.com/qeXb3ku.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
+Go to ipgolocation.io, create an account, copy the API_KEY and paste it on the PowerShell script as shown in the screenShot below, Then Run the script.
+ 
+<img src="https://i.imgur.com/Njgs68Y.png" height="80%" width="80%" alt=""/>
+<img src=" https://i.imgur.com/3gLgDup.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
  
  
  
+ 
+ 
+ 
+Go to : <br/>
+<img src="" height="80%" width="80%" alt=""/>
+<br />
+<br />
+ Go to : <br/>
+<img src="" height="80%" width="80%" alt=""/>
+<br />
+<br />
+ Go to : <br/>
+<img src="" height="80%" width="80%" alt=""/>
+<br />
+<br />
+ Go to : <br/>
+<img src="" height="80%" width="80%" alt=""/>
+<br />
+<br />
  
  
  
