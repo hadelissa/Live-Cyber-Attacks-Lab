@@ -133,13 +133,16 @@ Go to Wf.msc, click on Windows Defender Firewall Properties: <br/>
 <img src="https://i.imgur.com/7gc3gTp.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
-Try to ping the VM IP address on your Computer to check if echo request are allowed. <br/>
+**Try to ping the VM IP address on your Computer to check if echo request are allowed.** <br/>
+<br />
+**Copy the PowerShell Script for this lab from the Custom_Security_Log_Exporter.ps1 file.** 
 <br />
 <br />
-Copy the PowerShell Script for this lab from the file 
-<img src="" height="80%" width="80%" alt=""/>
+Open Powershell ISE and click New. Next, Paste the PowerShell Script and save it to you desktop: <br/>
+<img src="https://i.imgur.com/qeXb3ku.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
+ 
  
  
  
