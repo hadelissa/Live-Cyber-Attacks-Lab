@@ -82,27 +82,43 @@ Go to Environment Settings, then choose the workspace that we've created previou
 <img src="https://i.imgur.com/hz9m1bU.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
-titini: <br/>
-<img src="" height="80%" width="80%" alt=""/>
+configure the settings as follow: Then click Save. <br/>
+<img src="https://i.imgur.com/hm6FZ9p.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
+Click on Data collection and select All Events Then click Save: <br/>
+<img src="https://i.imgur.com/Brjfczf.png" height="80%" width="80%" alt=""/>
+ 
+ <h2>Connecting workspace to the VM walk-through:</h2>
+  <p align="center">
+Go to Logs Analytics Workspaces: <br/>
+<img src="https://i.imgur.com/AGNakgg.png" height="80%" width="80%" alt=""/>
+<br />
+Click on Virtual Machines select the VM that we have created: <br/>
+<img src="https://i.imgur.com/FDAWy61.png" height="80%" width="80%" alt=""/>
+<br />
+Click on Connect: <br/>
+<img src="https://i.imgur.com/fKHWoe0.png" height="80%" width="80%" alt=""/>
 
+  <h2>Connecting Sentinel walk-through:</h2>
+  <p align="center">
+Go to Logs Analytics Workspaces: <br/>
+<img src="https://i.imgur.com/AGNakgg.png" height="80%" width="80%" alt=""/>
+<br />
 
-
-
+ 
+ 
+ 
+<br />
+:<br />
+<img src="image source" height="80%" width="80%" alt=""/> 
+<br />
+ tittle: <br/>
+<img src="image source" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />
 tittle: <br/>
-<img src="image source" height="80%" width="80%" alt=""/>
-<br />
-<br />
-<br />tittle: <br/>
-<img src="image source" height="80%" width="80%" alt=""/>
-<br />
-<br />
-<br />tittle: <br/>
-<img src="image source" height="80%" width="80%" alt=""/>
-<br />
-<br />
-<br />tittle: <br/>
 <img src="image source" height="80%" width="80%" alt=""/>
 <br />
 <br />
