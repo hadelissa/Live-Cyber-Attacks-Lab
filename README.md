@@ -94,29 +94,38 @@ Click on Data collection and select All Events Then click Save: <br/>
 Go to Logs Analytics Workspaces: <br/>
 <img src="https://i.imgur.com/AGNakgg.png" height="80%" width="80%" alt=""/>
 <br />
+<br />
 Click on Virtual Machines select the VM that we have created: <br/>
 <img src="https://i.imgur.com/FDAWy61.png" height="80%" width="80%" alt=""/>
+<br />
 <br />
 Click on Connect: <br/>
 <img src="https://i.imgur.com/fKHWoe0.png" height="80%" width="80%" alt=""/>
 
-  <h2>Connecting Sentinel walk-through:</h2>
+  <h2>Connecting Microsfot Sentinel (SIEM) walk-through:</h2>
+ *This is where we're going to use to visualize the attack data*
   <p align="center">
-Go to Logs Analytics Workspaces: <br/>
-<img src="https://i.imgur.com/AGNakgg.png" height="80%" width="80%" alt=""/>
+Go to Microsoft Sentinel: <br/>
+<img src="https://i.imgur.com/HaGg6BJ.png" height="80%" width="80%" alt=""/>
 <br />
+<br />
+select the VM that we've created previously for this lab: <br/>
+<img src="https://i.imgur.com/mYLJIpM.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+ 
+<h2>Connecting VM to The Remote Desktop walk-through:</h2> 
 
-
-<br />
-:<br />
-<img src="image source" height="80%" width="80%" alt=""/> 
-<br />
- tittle: <br/>
-<img src="image source" height="80%" width="80%" alt=""/>
+  <p align="center">
+Go to Virtual Machine then copy the Public IP address:<br />
+<img src="https://i.imgur.com/RXEs5ZX.png" height="80%" width="80%" alt=""/> 
 <br />
 <br />
+On your Computer, search for Remote Desktop Connection then paste your Ip address the click connect: <br/>
+<img src="https://i.imgur.com/vFZ1y8y.png" height="80%" width="80%" alt=""/>
 <br />
-tittle: <br/>
+<br />
+ Go to : <br/>
 <img src="image source" height="80%" width="80%" alt=""/>
 <br />
 <br />
