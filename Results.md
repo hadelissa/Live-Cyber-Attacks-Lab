@@ -2,13 +2,14 @@
 
 
 <h2>Description</h2>
-<b>The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
+<b>The PowerShell script found in this repository is designed to extract data related to unsuccessful Remote Desktop Protocol (RDP) attempts from the Windows Event Log, and then employ a third-party API to retrieve geographic details concerning the location of the attackers.
+
 </b>
 <br />
 <br />
-The script is used in this demo where I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot.
-We will observe live attacks (RDP Brute Force) from all around the world. I will use a custom PowerShell script to
-look up the attackers Geolocation information and plot it on an Azure Sentinel Map!
+In this lab, the script is utilized to configure Azure Sentinel (SIEM) and link it to a functioning virtual machine functioning as a honeypot. The demo involves monitoring ongoing RDP brute force attacks originating from various locations worldwide, and leveraging a customized PowerShell script to retrieve the geolocation data of the attackers and depict it on an Azure Sentinel map.
+
+
 <br />
 <br />
 
