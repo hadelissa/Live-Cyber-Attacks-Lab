@@ -27,14 +27,14 @@ In this lab, the script is utilized to configure Azure Sentinel (SIEM) and link 
 <h2> Coming in Attacks from several countries; Custom logs being output with geodata</h2>
 
 <p align="center">
-<img src="https://i.imgur.com/DIJkfEx.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+<img src="https://i.imgur.com/aCdbdwt.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
 </p>
 
 <h2>World map of incoming attacks after 24 hours (built custom logs including geodata)</h2>
 
 <p align="center">
  Scan Live attacks</p>
-<img src="https://i.imgur.com/tkPtz8b.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+<img src="https://i.imgur.com/mPgDumR.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
 </p>
 
 
