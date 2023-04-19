@@ -33,7 +33,7 @@ In this lab, the script is utilized to configure Azure Sentinel (SIEM) and link 
 <h2>World map of incoming attacks after 24 hours (built custom logs including geodata)</h2>
 
 <p align="center">
- Scan Live attacks</p>
+</p>
 <img src="https://i.imgur.com/mPgDumR.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
 </p>
 
