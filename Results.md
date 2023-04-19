@@ -24,7 +24,7 @@ In this lab, the script is utilized to configure Azure Sentinel (SIEM) and link 
 
 - <b>ipgeolocation.io:</b> IP Address to Geolocation API
 
-<h2>Attacks from severL countries coming in; Custom logs being output with geodata</h2>
+<h2> Coming in Attacks from several countries; Custom logs being output with geodata</h2>
 
 <p align="center">
 <img src="https://i.imgur.com/DIJkfEx.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
