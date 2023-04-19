@@ -208,11 +208,13 @@ Click on the save icon to save your map, give it a name, select the source group
 <img src="https://i.imgur.com/8yJn7Ev.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
-* I have waited about 24 hours to see the final results *
-Live RDP Attack Map: <br/>
-<img src="https://i.imgur.com/tkPtz8b.png" height="80%" width="80%" alt=""/>
-<br />
-<br />
+<h2>World map of incoming attacks after 24 hours (built custom logs including geodata)</h2>
+
+<p align="center">
+</p>
+<img src="https://i.imgur.com/mPgDumR.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+</p>
+
  
 <!--
  ```diff
